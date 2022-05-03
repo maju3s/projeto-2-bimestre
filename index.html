@@ -13,6 +13,9 @@
 
     <link rel="shortcut icon" href="etec logo.png" type="image/x-icon">
 
+    <!--fontawesome-->
+    <link href="fontawesome-free-6.1.1-web/css/fontawesome.css" rel="stylesheet">
+
     <!--cdn bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Etec news
@@ -27,7 +30,45 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-black fixed-top ">
+
+
+        <nav class="navbar navbar-expand-custom navbar-mainbg">
+            <a class="navbar-brand navbar-logo" href="#">
+                <img src="etec logo.png" alt="logo etec" style="height: 40px;">
+            </a>
+            <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars fas-white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <div class="hori-selector">
+                        <div class="left"></div>
+                        <div class="right"></div>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Address Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>Components</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Calendar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Charts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-copy"></i>Documents</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <!--<nav class="navbar navbar-expand-md navbar-dark bg-black fixed-top ">
             <a class="navbar-brand" href="#">
                 <img src="/etec logo.png" alt="">
             </a>
@@ -53,7 +94,7 @@
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
                 </form>
             </div>
-        </nav>
+        </nav> -->
     </header>
 
     <main role="main">
@@ -116,7 +157,7 @@
             <!-- Três colunas de texto, abaixo do carousel -->
             <div class="row">
                 <div class="col-lg-4">
-                    <img class="rounded-circle" data-src="/WhatsApp Image 2022-05-01 at 01.41.54 (2).jpeg" alt="Generic placeholder image" width="140" height="140">
+                    <img src="/WhatsApp Image 2022-05-01 at 01.41.54 (2).jpeg" class="rounded-circle" alt="Generic placeholder image" width="140" height="140">
                     <h2>Título</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error laboriosam aspernatur quasi quae porro debitis atque praesentium cupiditate ullam, laborum, tempore quo, necessitatibus eaque ipsam at distinctio reiciendis nam consectetur.</p>
                     <p><a class="btn bg-marketing" href="#" role="button">Ver detalhes &raquo;</a></p>
@@ -277,6 +318,11 @@
     <script>
         window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')
     </script>
+
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/8833acc5cb.js" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
 
     <!-- cdn bootstrap -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
