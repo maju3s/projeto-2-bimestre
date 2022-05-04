@@ -546,3 +546,18 @@ i {
 
 
 /*fim nav*/
+
+img.first-slide {
+    background-size: cover;
+    opacity: 0.5;
+}
+
+a.btn:hover {
+    background-color: #74b9ff;
+    transition: 0.5s;
+    border: none;
+}
+
+h4.tamanho {
+    font-size: 15px;
+}
