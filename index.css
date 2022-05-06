@@ -40,7 +40,7 @@ html {
 /* Declaramos alturas, devido ao posicionamento do elemento img */
 
 .carousel-item {
-    height: 32rem;
+    height: 35rem;
     background-color: #777;
 }
 
@@ -49,7 +49,8 @@ html {
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 32rem;
+    height: 35rem;
+    opacity: 0.5;
 }
 
 
@@ -550,12 +551,6 @@ i {
 img.first-slide {
     background-size: cover;
     opacity: 0.5;
-}
-
-a.btn:hover {
-    background-color: #74b9ff;
-    transition: 0.5s;
-    border: none;
 }
 
 h4.tamanho {

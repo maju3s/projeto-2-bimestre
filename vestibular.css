@@ -1,0 +1,60 @@
+/*
+  * Footer
+  */
+
+.mastfoot {
+    color: rgba(255, 255, 255, .5);
+}
+
+body {
+    color: #5a5a5a;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-black {
+    background-color: #090c0e;
+}
+
+
+/* Featrurezinhas
+  ------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0;
+    border: 1px solid #f13239;
+    /* Espaça o elemento <hr> mais */
+}
+
+
+/* Afina os cabeçalhos de marketing */
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+
+/* CSS RESPONSIVE
+  -------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Aumenta o tamanho do conteúdo do carousel */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
