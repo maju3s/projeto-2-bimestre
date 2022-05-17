@@ -388,7 +388,7 @@ i {
 
 .navbar .dropdown-menu {
     border: none;
-    background-color: #e08888 !important;
+    background-color: white!important;
 }
 
 
@@ -406,9 +406,7 @@ i {
         margin: 0 .25rem;
     }
     /* makes the dropdown full width  */
-    .navbar .dropdown {
-        position: static;
-    }
+    .navbar .dropdown {}
     .navbar .dropdown-menu {
         width: 100%;
         left: 0;
@@ -419,7 +417,7 @@ i {
         visibility: hidden;
         opacity: 0;
         transition: visibility 0s, opacity 0.3s linear;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     /* shows the dropdown menu on hover */
     .navbar .dropdown:hover .dropdown-menu,
