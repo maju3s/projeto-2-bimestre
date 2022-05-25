@@ -627,7 +627,7 @@ section {
 }
 
 .section-bg {
-    background-color: lightblue;
+    background-color: black;
 }
 
 .section-title {
@@ -662,4 +662,8 @@ section {
     background: #b30e10;
     bottom: 0;
     left: calc(50% - 30px);
+}
+
+section img {
+    width: 100px;
 }
