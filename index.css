@@ -16,8 +16,14 @@ html {
     background-color: #090c0e;
 }
 
-nav ul li {
+nav div ul li a {
+    float: right;
+    color: #1F3C52;
+}
+
+nav ul li div {
     padding: 2px 0;
+    float: right;
 }
 
 nav ul li:hover {
@@ -25,10 +31,12 @@ nav ul li:hover {
     transition: color 0, 5s;
     border-bottom: 2px solid #dc143c;
     font-size: 17px;
+    float: right;
 }
 
 nav ul+li {
     margin-left: 24px;
+    float: right;
 }
 
 
@@ -148,7 +156,7 @@ nav ul+li {
     background-color: #090c0e;
     color: #ebebeb;
     padding: 92px 24px;
-    margin: 64px 0 400px;
+    margin: 64px 0 200px;
     border-top: 4px solid #f13239;
     background-size: 300px;
 }
@@ -385,70 +393,6 @@ i {
 }
 
 
-/*navbar dropdown*/
-
-.navbar {
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 0;
-    border: 1px solid transparent;
-    border-radius: 0;
-    background-color: #ebebeb !important;
-    color: #000 !important;
-}
-
-.navbar .dropdown-menu div[class*="col"] {
-    margin-bottom: 1rem;
-}
-
-.navbar .dropdown-menu {
-    border: none;
-    background-color: white!important;
-}
-
-
-/* breakpoint and up - mega dropdown styles */
-
-@media screen and (min-width: 992px) {
-    /* remove the padding from the navbar so the dropdown hover state is not broken */
-    .navbar {
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-    /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
-    .navbar .nav-item {
-        padding: .5rem .5rem;
-        margin: 0 .25rem;
-    }
-    /* makes the dropdown full width  */
-    .navbar .dropdown {}
-    .navbar .dropdown-menu {
-        width: 100%;
-        left: 0;
-        right: 0;
-        /*  height of nav-item  */
-        top: 45px;
-        display: block;
-        visibility: hidden;
-        opacity: 0;
-        transition: visibility 0s, opacity 0.3s linear;
-        margin-top: 10px;
-    }
-    /* shows the dropdown menu on hover */
-    .navbar .dropdown:hover .dropdown-menu,
-    .navbar .dropdown .dropdown-menu:hover {
-        display: block;
-        visibility: visible;
-        opacity: 1;
-        transition: visibility 0s, opacity 0.3s linear;
-    }
-    .navbar .dropdown-menu {
-        border: 1px solid rgba(0, 0, 0, .15);
-        background-color: #fff;
-    }
-}
-
-
 /*----------bootstrap-navbar-css
 
 .navbar-logo {
@@ -634,4 +578,88 @@ img.first-slide {
 
 h4.tamanho {
     font-size: 15px;
+}
+
+.services .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+}
+
+.services .icon-box:hover {
+    transform: translateY(-5px);
+    border-color: #b30e10;
+}
+
+.services .icon i {
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 15px;
+    color: #b30e10;
+}
+
+.services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.services .title a {
+    color: #111;
+}
+
+.services .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-bg {
+    background-color: lightblue;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 0;
+    line-height: 1px;
+    margin-bottom: 15px;
+    color: #c2b7b1;
+}
+
+.section-title p {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 32px;
+    font-weight: 700;
+    color: #b30e10;
+}
+
+.section-title p::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #b30e10;
+    bottom: 0;
+    left: calc(50% - 30px);
 }
