@@ -16,6 +16,21 @@ html {
     background-color: #090c0e;
 }
 
+nav ul li {
+    padding: 2px 0;
+}
+
+nav ul li:hover {
+    color: #ebebeb;
+    transition: color 0, 5s;
+    border-bottom: 2px solid #dc143c;
+    font-size: 17px;
+}
+
+nav ul+li {
+    margin-left: 24px;
+}
+
 
 /* CUSTOMIZA O CAROUSEL
   -------------------------------------------------- */
