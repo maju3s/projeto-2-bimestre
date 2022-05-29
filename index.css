@@ -43,7 +43,7 @@ div#navbarNavDropdown.collapse.navbar-collapse {}
 
 .carousel-item {
     height: 35rem;
-    background-color: #777;
+    background-color: rgb(48, 47, 47);
 }
 
 .carousel-item>img {
@@ -53,6 +53,14 @@ div#navbarNavDropdown.collapse.navbar-collapse {}
     min-width: 100%;
     height: 35rem;
     opacity: 0.5;
+}
+
+.carousel-item>div.depoimento {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 35rem;
 }
 
 
@@ -629,6 +637,12 @@ a.navbar-brand img.img-fluid {
 
 /* eventos */
 
+#servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #servicos .badge {
     font-weight: 400;
 }
@@ -661,11 +675,10 @@ a.navbar-brand img.img-fluid {
 }
 
 #servicos .button-group button.active {
-    color: var(--primary);
+    color: black;
 }
 
-[03:35,
-29/05/2022] Raphaela: #servicos .badge {
+#servicos .badge {
     font-weight: 400;
 }
 
@@ -698,4 +711,35 @@ a.navbar-brand img.img-fluid {
 
 #servicos .button-group button.active {
     color: #b30e10;
+}
+
+#depoimentos .depoimento {
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+
+#depoimentos .depoimento img {
+    border-radius: 100%;
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+#depoimentos .depoimento .quote {
+    max-width: 50px;
+    justify-content: center;
+}
+
+#depoimentos .depoimento .name {
+    color: #aaaaaa;
+    justify-content: center;
+}
+
+#depoimentos .depoimento .name span {
+    color: rgb(97, 5, 5);
+    font-weight: 700;
 }
