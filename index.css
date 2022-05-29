@@ -16,37 +16,7 @@ html {
     background-color: #090c0e;
 }
 
-nav div li ul a {
-    margin-left: 200px;
-}
-
-nav div ul li a {
-    margin-left: 200px;
-    color: #1F3C52;
-}
-
-nav ul li div {
-    padding: 2px 0;
-    float: right;
-}
-
-nav ul li:hover {
-    color: #ebebeb;
-    transition: color 0, 5s;
-    border-bottom: 2px solid #dc143c;
-    font-size: 17px;
-    float: right;
-}
-
-nav ul+li {
-    margin-left: 24px;
-    float: right;
-}
-
-.img-fluid {
-    max-width: 50%;
-    margin-left: 50px;
-}
+div#navbarNavDropdown.collapse.navbar-collapse {}
 
 
 /* CUSTOMIZA O CAROUSEL
@@ -117,6 +87,10 @@ nav ul+li {
     color: #1e272e;
 }
 
+.marketing p {
+    max-width: 600px;
+}
+
 
 /* Featrurezinhas
   ------------------------- */
@@ -168,6 +142,7 @@ nav ul+li {
     margin: 200px 0 200px;
     border-top: 4px solid #f13239;
     background-size: 300px;
+    margin-bottom: 200px;
 }
 
 .galeria .container {
@@ -470,4 +445,257 @@ section {
 
 section img {
     width: 100px;
+}
+
+a.navbar-brand img.img-fluid {
+    margin-left: 50px;
+    width: 80px;
+}
+
+.contact .info {
+    border-top: 3px solid #b30e10;
+    border-bottom: 3px solid #b30e10;
+    padding: 30px;
+    background: indianred;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .info i {
+    font-size: 20px;
+    color: #b30e10;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #fdf1ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #b30e10;
+}
+
+.contact .info p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #ab9d95;
+}
+
+.contact .info .email p {
+    padding-top: 5px;
+}
+
+.contact .info .social-links {
+    padding-left: 60px;
+}
+
+.contact .info .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+.contact .info .social-links a:hover {
+    background: #b30e10;
+    color: #fff;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+    background: #b30e10;
+    color: #fff;
+}
+
+.contact .php-email-form {
+    width: 100%;
+    border-top: 3px solid #b30e10;
+    border-bottom: 3px solid #b30e10;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .php-email-form .form-group {
+    padding-bottom: 8px;
+}
+
+.contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .php-email-form .error-message br+br {
+    margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.contact .php-email-form input {
+    height: 44px;
+}
+
+.contact .php-email-form textarea {
+    padding: 10px 12px;
+}
+
+.contact .php-email-form button[type=submit] {
+    background: #b30e10;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+    background: #b30e10;
+}
+
+@-webkit-keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* eventos */
+
+#servicos .badge {
+    font-weight: 400;
+}
+
+#servicos .element-item img {
+    border-radius: 5px;
+    transition: all ease-out 0.2s;
+}
+
+#servicos .element-item img:hover {
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
+}
+
+#servicos .button-group {
+    margin-bottom: 30px;
+}
+
+#servicos .button-group button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    outline: none;
+}
+
+#servicos .button-group button+button {
+    margin-left: 30px;
+}
+
+#servicos .button-group button.active {
+    color: var(--primary);
+}
+
+[03:35,
+29/05/2022] Raphaela: #servicos .badge {
+    font-weight: 400;
+}
+
+#servicos .element-item img {
+    border-radius: 5px;
+    transition: all ease-out 0.2s;
+}
+
+#servicos .element-item img:hover {
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
+}
+
+#servicos .button-group {
+    margin-bottom: 30px;
+}
+
+#servicos .button-group button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    outline: none;
+}
+
+#servicos .button-group button+button {
+    margin-left: 30px;
+}
+
+#servicos .button-group button.active {
+    color: #b30e10;
 }
