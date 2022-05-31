@@ -648,6 +648,7 @@
     
     #servicos .button-group button.active {
         color: black;
+        margin-left: 30px;
     }
     
     #servicos .badge {
@@ -675,6 +676,7 @@
         text-transform: uppercase;
         font-weight: 700;
         outline: none;
+        margin-left: 30px;
     }
     
     #servicos .button-group button+button {
@@ -683,6 +685,20 @@
     
     #servicos .button-group button.active {
         color: #b30e10;
+    }
+    
+    @media only screen {
+        #servicos .button-group button {
+            background: none;
+            border: none;
+            padding: 0;
+            margin: 0;
+            text-transform: uppercase;
+            font-weight: 700;
+            outline: none;
+            color: #090c0e;
+            margin-left: 30px;
+        }
     }
     /* Carrossel 2 */
     
@@ -753,7 +769,8 @@
             font-weight: 700;
         }
         .carousel p {
-            font-size: 15px
+            font-size: 15px;
+            margin-top: 20px;
         }
     }
     /* cards noticia */
@@ -1117,4 +1134,8 @@
         .screen-body-item {
             padding: 0;
         }
+    }
+    
+    .container h4.subtitle {
+        margin-bottom: 50px;
     }
