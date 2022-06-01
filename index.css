@@ -128,7 +128,7 @@
         margin: 200px 0 200px;
         border-top: 4px solid #f13239;
         background-size: 300px;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
     }
     
     .galeria .container {
@@ -950,6 +950,7 @@
         flex: 0 1 700px;
         margin: auto;
         padding: 10px;
+        margin-bottom: 100px;
     }
     
     .screen {
@@ -998,7 +999,7 @@
     }
     
     .screen-header-button.maximize {
-        background: rgba(21, 21, 236, 0.568);
+        background: white;
     }
     
     .screen-header-button.minimize {
@@ -1138,4 +1139,8 @@
     
     .container h4.subtitle {
         margin-bottom: 50px;
+    }
+    
+    .modal img {
+        width: 100%;
     }
