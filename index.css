@@ -1004,3 +1004,7 @@ a.navbar-brand img.img-fluid {
 .modal img {
     width: 100%;
 }
+
+span.negrito {
+    font-weight: bold;
+}
