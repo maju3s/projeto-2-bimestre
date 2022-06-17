@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.377), white, rgba(0, 0, 255, 0.212));
+}
+
+h1 {
+    font-family: Poppins;
+}
+
+img {
+    width: 200px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: poppins;
+    size: 50px;
+    color: darkred;
+    text-decoration: none;
+}
+
+h2::before {
+    color: darkblue;
+    text-decoration: none;
+}
