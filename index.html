@@ -35,407 +35,410 @@
 
 
 <body>
+    <input type="checkbox" id="darkmodeToggle">
+    <main class="corpo">
 
-    <!--nav-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
-        <a class="navbar-brand" href="#"><img class="img-fluid" src="etec logo.png" alt=""></a>
-        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+
+        <!--nav-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+            <a class="navbar-brand" href="#"><img class="img-fluid" src="etec logo.png" alt=""></a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
     <span class="navbar-toggler-icon"></span>
     </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active ml-auto " style="padding-right:40px;">
-                    <a class="nav-link " style="color:#456c8a; font-size: 18px;" href="#"> Home <span class="sr-only">(Página atual)</span></a>
-                </li>
-                <li class="nav-item ml-auto " style="padding-right:40px; font-size: 18px;">
-                    <a class="nav-link ml-auto" href="#noticias">  Cursos </a>
-                </li>
-                <li class="nav-item ml-auto" style="padding-right:40px;font-size: 18px;  ">
-                    <a class="nav-link" href="#servicos">Eventos</a>
-                </li>
-
-            </ul>
-        </div>
-    </nav>
-
-    <!--fim da nav-->
-
-
-    <!-- carrossel -->
-
-
-    <main role="main">
-
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="first-slide" src="54DD70EF27A9607D2F3EEEB60375BCB3794D_provaconcurso.jpg" alt="First slide">
-                    <div class="container">
-                        <div class="carousel-caption text-left">
-                            <h1>Inscrição para Vestibulares</h1>
-
-                            <p class="tamanho"> Por: Laura de Mira e Maria Clara Bottin. </p>
-                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ExemploModalCentralizado">
-                                Ver Mais
-                              </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="second-slide" src="grad.jpg" alt="Second slide">
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <h1>Notícias da Etec</h1>
-                            <p>Por: Angel Sierra e Hércules Pimentel. </p>
-                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ExemploModalCentralizado2">
-                                Ver Mais
-                              </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="third-slide" src="livros.jpg" alt="Third slide">
-                    <div class="container">
-                        <div class="carousel-caption text-right">
-                            <h1>Literatura: Livros exigidos no Enem 2022</h1>
-                            <p>Por: Laysa Santos e Maria Eduarda Borbolato.</p>
-                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ExemploModalCentralizado3">
-                                Ver Mais
-                              </button>
-                        </div>
-                    </div>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active ml-auto " style="padding-right:40px;">
+                        <a class="nav-link " style="color:#456c8a; font-size: 18px;" href="#"> Home <span class="sr-only">(Página atual)</span></a>
+                    </li>
+                    <li class="nav-item ml-auto " style="padding-right:40px; font-size: 18px;">
+                        <a class="nav-link ml-auto" href="#noticias">  Cursos </a>
+                    </li>
+                    <li class="nav-item ml-auto" style="padding-right:40px;font-size: 18px;  ">
+                        <a class="nav-link" href="#servicos">Eventos</a>
+                    </li>
+                    <li> <label for="darkmodeToggle" class="darkmodeLabel">Dark Mode </label></li>
+                </ul>
             </div>
-            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Voltar</span>
-            </a>
-            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Avançar</span>
-            </a>
-        </div>
-        <!--  fim do carrossel -->
+        </nav>
+
+        <!--fim da nav-->
+
+
+        <!-- carrossel -->
+
+
+        <main role="main">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="first-slide" src="54DD70EF27A9607D2F3EEEB60375BCB3794D_provaconcurso.jpg" alt="First slide">
+                        <div class="container">
+                            <div class="carousel-caption text-left">
+                                <h1>Inscrição para Vestibulares</h1>
+
+                                <p class="tamanho"> Por: Laura de Mira e Maria Clara Bottin. </p>
+                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ExemploModalCentralizado">
+                                Ver Mais
+                              </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="second-slide" src="grad.jpg" alt="Second slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>Notícias da Etec</h1>
+                                <p>Por: Angel Sierra e Hércules Pimentel. </p>
+                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ExemploModalCentralizado2">
+                                Ver Mais
+                              </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="third-slide" src="livros.jpg" alt="Third slide">
+                        <div class="container">
+                            <div class="carousel-caption text-right">
+                                <h1>Literatura: Livros exigidos no Enem 2022</h1>
+                                <p>Por: Laysa Santos e Maria Eduarda Borbolato.</p>
+                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ExemploModalCentralizado3">
+                                Ver Mais
+                              </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Voltar</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Avançar</span>
+                </a>
+            </div>
+            <!--  fim do carrossel -->
 
 
 
 
 
-        <!-- Modal carousel 1 -->
-        <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="TituloModalCentralizado">Inscrição para Vestibulares </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <!-- Modal carousel 1 -->
+            <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalCentralizado">Inscrição para Vestibulares </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
-                    </div>
-                    <div class="modal-body">
-                        <img src="nota-como-serc3a1-o-vestibular-das-universidades-particulares.webp" alt="">
-                        <br>
-                        <br>
-                        <h2 class="title text-center"> Vestibulares 2022, 2º semestre</h2>
-                        <br>
+                        </div>
+                        <div class="modal-body">
+                            <img src="nota-como-serc3a1-o-vestibular-das-universidades-particulares.webp" alt="">
+                            <br>
+                            <br>
+                            <h2 class="title text-center"> Vestibulares 2022, 2º semestre</h2>
+                            <br>
 
-                        <span class="negrito">UEMA (para cursos ead)</span> 21/03/2022 à 29/04/2022.
-                        <br>
-                        <span class="negrito">FGV (administração)</span> 07/03/2022 à 05/05/2022.
-                        <br>
-                        <span class="negrito">IFMT (via ENEM)</span> 24/03/2022 à 20/05/2022.
-                        <br>
-                        <span class="negrito">UCSal (para cursos ead)</span> 08/11/2021 à 30/04/2022.
-                        <br>
-                        <span class="negrito">UEPA (Prosel)</span> 18/11/2021 à 19/11/2022.
-                        <br><br> Por: Laura de Mira e Maria Clara Bottin.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                            <span class="negrito">UEMA (para cursos ead)</span> 21/03/2022 à 29/04/2022.
+                            <br>
+                            <span class="negrito">FGV (administração)</span> 07/03/2022 à 05/05/2022.
+                            <br>
+                            <span class="negrito">IFMT (via ENEM)</span> 24/03/2022 à 20/05/2022.
+                            <br>
+                            <span class="negrito">UCSal (para cursos ead)</span> 08/11/2021 à 30/04/2022.
+                            <br>
+                            <span class="negrito">UEPA (Prosel)</span> 18/11/2021 à 19/11/2022.
+                            <br><br> Por: Laura de Mira e Maria Clara Bottin.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal carousel 2 -->
-        <div class="modal fade" id="ExemploModalCentralizado2" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="TituloModalCentralizado">Notícias da Etec</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-    <span aria-hidden="true">&times;</span>
-  </button>
-                    </div>
-                    <div class="modal-body">
-                        <img src="etec-lins.jpg" alt="">
-                        <br>
-                        <br>
-                        <h2 class="title text-center">Ouvindo os gestores da Etec de Lins! </h2>
-                        <br>
-
-
-                        <span class="negrito">Professor César (Diretor)</span> A Etec de Lins recebeu uma verba, e foi possível investir em equipamentos tecnológicos, como computadores e televisores para contribuir no desenvolvimento dos conteúdos dentro
-                        da sala de aula. De acordo com o Diretor, ainda precisamos manter a higiene sanitária e as orientações necessárias para prevenção da COVID-19, mesmo após a retirada da obrigatoriedade das máscaras em lugares fechados. Em caso de
-                        possíveis sintomas, os membros da comunidade escolar não devem comparecer à escola.
-                        <hr>
-                        <span class="negrito"> Erika (Orientadora Educacional)</span> Com o processo eleitoral do Grêmio Estudantil concluído, se espera o desenvolvimento dos projetos culturais, e uma visão educacional da chapa eleita este ano. A Orientadora
-                        também conta com a colaboração dos alunos na realização de doações e na montagem e organização do “Espaço de Convivência”, um local que será montado ao lado da sala da Érika, destinado a todos os alunos para ser utilizado nos intervalos
-                        de aula.
-                        <hr>
-                        <span class="negrito">Ana Beatriz, mais conhecida como Bia (Assessora Técnica
-                        Administrativa)</span> Estamos com a campanha de arrecadação de absorventes para a necessidade básica feminina, que está ocorrendo desde 31 de março, e todos que quiserem contribuir, poderão trazer na Etec
-                        e colocar sobre a mesa próxima à Secretaria.
-                        <hr>
-                        <span class="negrito">Thiago (Diretor de Serviço Administrativo)</span> Com o retorno das aulas presenciais e o aumento de novas Turmas, muitos professores foram contratados. O Diretor Administrativo, ainda comentou sobre a possibilidade
-                        de instalar uma “Sala Maker”, um ambiente personalizado para o desenvolvimento de atividades práticas, trazendo desta forma, melhorias para a Instituição Escolar.
-                        <br><br> Por: Angel Sierra e Hércules Pimentel
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal carousel 3 -->
-        <div class="modal fade" id="ExemploModalCentralizado3" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="TituloModalCentralizado">Livros exigidos no Enem 2022 </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-    <span aria-hidden="true">&times;</span>
-  </button>
-                    </div>
-                    <div class="modal-body">
-                        <img src="livros.jpg" alt="">
-                        <br>
-                        <br>
-                        <h2 class="title text-center"> Vidas Secas</h2>
-                        <hr> Vidas Secas aborda uma família de retirantes do sertão nordestino condicionada a uma vida sub-humana, diante de problemas como a seca, a miséria, a fome, a desigualdade social, as lutas de classes e, consecutivamente, o caleidoscópio
-                        de sentimentos, pensamentos, desejos e emoções, misturados à aspereza e ao clima do semiárido, que a condição lhes obriga a viver e a procurar meios de sobrevivência, expressando, assim, um espelhamento artístico ainda muito forte
-                        com a denúncia política e a situação histórico-social.
-                        <br>
-                        <br> Quarto de despejo-Carolina Maria de Jesus; O cortiço-Aluísio Azevedo; A carteira-Machado de Assis; A cartomante-Machado de Assis; A hora da estrela-Clarice Lispector; O Ateneu- Raul Pompeia; Grande sertão: Veredas - João Guimarães
-                        Rosa; Gabriela, cravo e canela- Jorge Amado.
-                        <br>
-                        <br> Por: Laysa Santos e Maria Eduarda Borbolato.<br> Por: Camilly Victória e Dandara Rheinheimer.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Mensagens de marketing e outras featurezinhas
-        ================================================== -->
-        <!-- Envolve o resto da página em outro container, para centralizar todo o conteúdo. -->
-
-        <div class="container marketing">
-            <center>
-                <h2 class="featurette-heading">#Notícias em Destaque<br>
-            </center>
-            <br>
-            <br>
-            <br>
-            <!-- Três colunas de texto, abaixo do carousel -->
-            <div class="row mt-4">
-                <div class="col-lg-4">
-                    <div class="card" style="width: 100%; height: 100%;">
-                        <img class="card-img-top" src="oab.png" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <h5 class="card-title"> Oab vai à escola</h5>
-                            <p class="card-text">Contamos com a parceria da comissão "OAB VAI À ESCOLA", representada pelo Dr Giovani Violatto.</p>
-                            <a href="https://www.instagram.com/p/CdqYoYcOHrh/?utm_source=ig_web_copy_link" class="btn btn-danger">Visitar</a>
                         </div>
                     </div>
                 </div>
-                <!-- <img src="WhatsApp Image 2022-05-01 at 01.41.54 (2).jpeg" class="rounded-circle" alt="Generic placeholder image" width="140" height="140">
+            </div>
+
+            <!-- Modal carousel 2 -->
+            <div class="modal fade" id="ExemploModalCentralizado2" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalCentralizado">Notícias da Etec</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+    <span aria-hidden="true">&times;</span>
+  </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="etec-lins.jpg" alt="">
+                            <br>
+                            <br>
+                            <h2 class="title text-center">Ouvindo os gestores da Etec de Lins! </h2>
+                            <br>
+
+
+                            <span class="negrito">Professor César (Diretor)</span> A Etec de Lins recebeu uma verba, e foi possível investir em equipamentos tecnológicos, como computadores e televisores para contribuir no desenvolvimento dos conteúdos
+                            dentro da sala de aula. De acordo com o Diretor, ainda precisamos manter a higiene sanitária e as orientações necessárias para prevenção da COVID-19, mesmo após a retirada da obrigatoriedade das máscaras em lugares fechados.
+                            Em caso de possíveis sintomas, os membros da comunidade escolar não devem comparecer à escola.
+                            <hr>
+                            <span class="negrito"> Erika (Orientadora Educacional)</span> Com o processo eleitoral do Grêmio Estudantil concluído, se espera o desenvolvimento dos projetos culturais, e uma visão educacional da chapa eleita este ano. A
+                            Orientadora também conta com a colaboração dos alunos na realização de doações e na montagem e organização do “Espaço de Convivência”, um local que será montado ao lado da sala da Érika, destinado a todos os alunos para ser
+                            utilizado nos intervalos de aula.
+                            <hr>
+                            <span class="negrito">Ana Beatriz, mais conhecida como Bia (Assessora Técnica
+                        Administrativa)</span> Estamos com a campanha de arrecadação de absorventes para a necessidade básica feminina, que está ocorrendo desde 31 de março, e todos que quiserem contribuir, poderão trazer na
+                            Etec e colocar sobre a mesa próxima à Secretaria.
+                            <hr>
+                            <span class="negrito">Thiago (Diretor de Serviço Administrativo)</span> Com o retorno das aulas presenciais e o aumento de novas Turmas, muitos professores foram contratados. O Diretor Administrativo, ainda comentou sobre a
+                            possibilidade de instalar uma “Sala Maker”, um ambiente personalizado para o desenvolvimento de atividades práticas, trazendo desta forma, melhorias para a Instituição Escolar.
+                            <br><br> Por: Angel Sierra e Hércules Pimentel
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal carousel 3 -->
+            <div class="modal fade" id="ExemploModalCentralizado3" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalCentralizado">Livros exigidos no Enem 2022 </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+    <span aria-hidden="true">&times;</span>
+  </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="livros.jpg" alt="">
+                            <br>
+                            <br>
+                            <h2 class="title text-center"> Vidas Secas</h2>
+                            <hr> Vidas Secas aborda uma família de retirantes do sertão nordestino condicionada a uma vida sub-humana, diante de problemas como a seca, a miséria, a fome, a desigualdade social, as lutas de classes e, consecutivamente, o caleidoscópio
+                            de sentimentos, pensamentos, desejos e emoções, misturados à aspereza e ao clima do semiárido, que a condição lhes obriga a viver e a procurar meios de sobrevivência, expressando, assim, um espelhamento artístico ainda muito
+                            forte com a denúncia política e a situação histórico-social.
+                            <br>
+                            <br> Quarto de despejo-Carolina Maria de Jesus; O cortiço-Aluísio Azevedo; A carteira-Machado de Assis; A cartomante-Machado de Assis; A hora da estrela-Clarice Lispector; O Ateneu- Raul Pompeia; Grande sertão: Veredas - João
+                            Guimarães Rosa; Gabriela, cravo e canela- Jorge Amado.
+                            <br>
+                            <br> Por: Laysa Santos e Maria Eduarda Borbolato.<br> Por: Camilly Victória e Dandara Rheinheimer.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mensagens de marketing e outras featurezinhas
+        ================================================== -->
+            <!-- Envolve o resto da página em outro container, para centralizar todo o conteúdo. -->
+
+            <div class="container marketing">
+                <center>
+                    <h2 class="featurette-heading">#Notícias em Destaque<br>
+                </center>
+                <br>
+                <br>
+                <br>
+                <!-- Três colunas de texto, abaixo do carousel -->
+                <div class="row mt-4">
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 100%; height: 100%;">
+                            <img class="card-img-top" src="oab.png" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title"> Oab vai à escola</h5>
+                                <p class="card-text">Contamos com a parceria da comissão "OAB VAI À ESCOLA", representada pelo Dr Giovani Violatto.</p>
+                                <a href="https://www.instagram.com/p/CdqYoYcOHrh/?utm_source=ig_web_copy_link" class="btn btn-danger">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img src="WhatsApp Image 2022-05-01 at 01.41.54 (2).jpeg" class="rounded-circle" alt="Generic placeholder image" width="140" height="140">
                     <h2> Oab vai à escola </h2>
                     <p>Contamos com a parceria da comissão "OAB VAI À ESCOLA", representada pelo Dr Giovani Violatto. <br></p>
                     <p><a class="btn bg-marketing" href="#" role="button">Ver detalhes &raquo;</a></p>-->
 
-                <!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <div class="card" style="width: 100%;  height: 100%;">
-                        <img class="card-img-top" src="destseg.png" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <h5 class="card-title"> Técnico em Segurança do Trabalho</h5>
-                            <p class="card-text">Classe Guaiçara realizou ontem visita técnica na empresa JBS - Higiene e Limpeza. Uma noite de muito aprendizado.</p>
-                            <a href="https://www.instagram.com/p/CdykMQluvYC/?utm_source=ig_web_copy_link" class="btn btn-danger">Visitar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <div class="card" style="width: 100%;  height: 100%;">
-                        <img class="card-img-top" src="vestibulinho.png" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <h5 class="card-title"> Vestibulinho</h5>
-                            <p class="card-text">Início das inscrições para o Vestibulinho 2º Semestre 2022 CURSOS TÉCNICOS GRATUITOS E DE QUALIDADE!.</p>
-                            <a href="https://www.instagram.com/p/Cdger9Qubn-/?utm_source=ig_web_copy_link" class="btn btn-danger">Visitar</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- /.col-lg-4 -->
-            </div>
-            <BR>
-            <BR>
-            <BR>
-
-
-
-            <!--DEPOIMENTOS-->
-
-            <div id="depoimentos" class="block">
-                <div class="container">
-                    <h2 class="title text-center">#Comentários da Galera</h2>
-                    <h4 class="subtitle text-center mb-4">Confira os comentários rolando na Etec Lins</h4>
-                </div>
-            </div>
-
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-
-                        <div class="depoimento first-slide">
-                            <img src="profile.png" />
-                            <div class="depoimento-texto pl-3">
-                                <p>
-                                    "Estou muito ansiosa para os Novos Eventos e achei incrivel a ideia do jornal".
-                                </p>
-                                <p class="name">
-                                    <span>Maria Júlia</span> / Estudante 2º DS
-                                </p>
-                                <p class="mb-0">
-                                    <img src="citar.png" class="quote float-right" />
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="depoimento second-slide">
-                            <img src="profile.png" />
-                            <div class="depoimento-texto pl-3">
-                                <p>
-                                    "Amei o jornal, desenvolver o site foi a parte mais legal do processo".
-                                </p>
-                                <p class="name">
-                                    <span>Raphaela Mirandola</span> / Estudante 2º DS
-                                </p>
-                                <p class="mb-0">
-                                    <img src="citar.png" class="quote float-right" />
-                                </p>
+                    <!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 100%;  height: 100%;">
+                            <img class="card-img-top" src="destseg.png" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title"> Técnico em Segurança do Trabalho</h5>
+                                <p class="card-text">Classe Guaiçara realizou ontem visita técnica na empresa JBS - Higiene e Limpeza. Uma noite de muito aprendizado.</p>
+                                <a href="https://www.instagram.com/p/CdykMQluvYC/?utm_source=ig_web_copy_link" class="btn btn-danger">Visitar</a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="carousel-item">
-                        <div class="depoimento third-slide">
-                            <img src="profile.png" />
-                            <div class="depoimento-texto pl-3">
-                                <p>
-                                    "Adoramos a ideia de comentários na página, isso torna mais interrativo e até mesmo chamativo!".
-                                </p>
-                                <p class="name">
-                                    <span>Luiza, Natalia e Lilian</span> / Estudantes 2º DS, Professora de TI
-                                </p>
-                                <p class="mb-0">
-                                    <img src="citar.png" class="quote float-right" />
-                                </p>
+                    <!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 100%;  height: 100%;">
+                            <img class="card-img-top" src="vestibulinho.png" alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h5 class="card-title"> Vestibulinho</h5>
+                                <p class="card-text">Início das inscrições para o Vestibulinho 2º Semestre 2022 CURSOS TÉCNICOS GRATUITOS E DE QUALIDADE!.</p>
+                                <a href="https://www.instagram.com/p/Cdger9Qubn-/?utm_source=ig_web_copy_link" class="btn btn-danger">Visitar</a>
                             </div>
                         </div>
                     </div>
 
+                    <!-- /.col-lg-4 -->
+                </div>
+                <BR>
+                <BR>
+                <BR>
+
+
+
+                <!--DEPOIMENTOS-->
+
+                <div id="depoimentos" class="block">
+                    <div class="container">
+                        <h2 class="title text-center">#Comentários da Galera</h2>
+                        <h4 class="subtitle text-center mb-4">Confira os comentários rolando na Etec Lins</h4>
+                    </div>
+                </div>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+
+                            <div class="depoimento first-slide">
+                                <img src="profile.png" />
+                                <div class="depoimento-texto pl-3">
+                                    <p>
+                                        "Estou muito ansiosa para os Novos Eventos e achei incrivel a ideia do jornal".
+                                    </p>
+                                    <p class="name">
+                                        <span>Maria Júlia</span> / Estudante 2º DS
+                                    </p>
+                                    <p class="mb-0">
+                                        <img src="citar.png" class="quote float-right" />
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="depoimento second-slide">
+                                <img src="profile.png" />
+                                <div class="depoimento-texto pl-3">
+                                    <p>
+                                        "Amei o jornal, desenvolver o site foi a parte mais legal do processo".
+                                    </p>
+                                    <p class="name">
+                                        <span>Raphaela Mirandola</span> / Estudante 2º DS
+                                    </p>
+                                    <p class="mb-0">
+                                        <img src="citar.png" class="quote float-right" />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="depoimento third-slide">
+                                <img src="profile.png" />
+                                <div class="depoimento-texto pl-3">
+                                    <p>
+                                        "Adoramos a ideia de comentários na página, isso torna mais interrativo e até mesmo chamativo!".
+                                    </p>
+                                    <p class="name">
+                                        <span>Luiza, Natalia e Lilian</span> / Estudantes 2º DS, Professora de TI
+                                    </p>
+                                    <p class="mb-0">
+                                        <img src="citar.png" class="quote float-right" />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
 
                 </div>
+
+                <!--//DEPOIMENTOS-->
+
+
+
+
+
+                <!-- /.row -->
+
+                <!--equipe/história- foto organizadores-->
+
+
+                <!-- COMEÇAM AS MENCIONADAS FEATUREZINHAS xD -->
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">CIEE. <span class="text-muted">Supreendente, não?!</span></h2>
+
+                        <p class="lead">Recebemos no dia 28 de Abril a gerente nacional Simone e o representante Bruno, do CIEE Bauru para divulgação de oportunidades de vagas e cursos aos alunos do Ensino Médio e cursos técnicos. Agradecemos a eles pela parceria de
+                            tantos anos!
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="featurette-image img-fluid mx-auto" src="WhatsApp Image 2022-05-01 at 01.41.54 (2).jpeg" alt="Generic placeholder image">
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading">Aêêê! <span class="text-muted">Tá legal ou não tá?</span></h2>
+                        <p class="lead">Diretor da Etec Lins, divulga projetos da escola na rádio BandFm.</p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img class="featurette-image img-fluid mx-auto" src="WhatsApp Image 2022-05-01 at 02.05.56.jpeg" alt="Generic placeholder image">
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <div class="row featurette">
+                    <div class="col-md-7">
+                        <h2 class="featurette-heading">Bárbara e Luísa. <span class="text-muted">Xeque-mate!</span></h2>
+                        <p class="lead">Apenas 1 mês que iniciaram o curso e já conquistaram oportunidade de estágio na área.</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img class="featurette-image img-fluid mx-auto" src="WhatsApp Image 2022-05-01 at 01.41.53.jpeg" alt="Generic placeholder image">
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+                <!-- FIM DAS FEATURESSSSS *-* -->
+
+
+
+
+
+
+
 
             </div>
-
-            <!--//DEPOIMENTOS-->
-
-
-
-
-
-            <!-- /.row -->
-
-            <!--equipe/história- foto organizadores-->
-
-
-            <!-- COMEÇAM AS MENCIONADAS FEATUREZINHAS xD -->
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">CIEE. <span class="text-muted">Supreendente, não?!</span></h2>
-
-                    <p class="lead">Recebemos no dia 28 de Abril a gerente nacional Simone e o representante Bruno, do CIEE Bauru para divulgação de oportunidades de vagas e cursos aos alunos do Ensino Médio e cursos técnicos. Agradecemos a eles pela parceria de tantos
-                        anos!
-                    </p>
-                </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-fluid mx-auto" src="WhatsApp Image 2022-05-01 at 01.41.54 (2).jpeg" alt="Generic placeholder image">
-                </div>
-            </div>
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading">Aêêê! <span class="text-muted">Tá legal ou não tá?</span></h2>
-                    <p class="lead">Diretor da Etec Lins, divulga projetos da escola na rádio BandFm.</p>
-                </div>
-                <div class="col-md-5 order-md-1">
-                    <img class="featurette-image img-fluid mx-auto" src="WhatsApp Image 2022-05-01 at 02.05.56.jpeg" alt="Generic placeholder image">
-                </div>
-            </div>
-
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">Bárbara e Luísa. <span class="text-muted">Xeque-mate!</span></h2>
-                    <p class="lead">Apenas 1 mês que iniciaram o curso e já conquistaram oportunidade de estágio na área.</p>
-                </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-fluid mx-auto" src="WhatsApp Image 2022-05-01 at 01.41.53.jpeg" alt="Generic placeholder image">
-                </div>
-            </div>
-
-            <hr class="featurette-divider">
-
-            <!-- FIM DAS FEATURESSSSS *-* -->
-
-
-
-
-
-
-
-
-        </div>
-        <!-- /.container -->
-        <!--
+            <!-- /.container -->
+            <!--
         <section id="services" class="services section-bg">
             <div class="container" data-aos="fade-up">
 
@@ -535,257 +538,257 @@
             </div>
 
         </section>-->
-        <!-- Botão para acionar modal -->
+            <!-- Botão para acionar modal -->
 
 
-        <!-- Modais noticias -->
+            <!-- Modais noticias -->
 
-        <div class="modal fade" id="ModalLongoExemploem" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="TituloModalLongoExemplo">Ensinos Médios</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <div class="modal fade" id="ModalLongoExemploem" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalLongoExemplo">Ensinos Médios</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
-                    </div>
-                    <div class="modal-body">
-                        Notícias dos Ensinos Médios
-                        <hr>
-                        <br>
-                        <h2 class="title text-center">#Primeira do dia</h2>
-                        <br>
-                        <img src="eventojornal.png" alt="">
-                        <br>
-                        <br> O Jornal ETECNEWS foi desenvolvido na 2ª Série do Itinerário Formativo em Linguagens, no componente curricular de Laboratório de Processos Criativos, pela professora Silvana Zution Heidrich, com o apoio da coordenadora de
-                        curso professora Mariana Porto. Os temas foram sugeridos pela professora juntamente com os alunos, e para que fosse possível a participação dos 40 alunos, a classe foi dividida em duplas para que pudessem escrever as notícias,
-                        realizar entrevistas e buscar as informações, de forma muito verdadeira e transparente. A divulgação da 1ª edição do Jornal ETECNEWS ocorreu no dia 03/05 para toda comunidade escolar, nas dependências da Etec de Lins, onde os alunos
-                        puderam contar um pouco sobre este projeto, que a princípio, ocorrerá mensalmente, e estará disponível no site e nas redes sociais da Etec de Lins.
-                        <hr>
-                        <h2 class="title text-center">#Segunda para animar</h2>
-                        <br>
-                        <img src="WhatsApp Image 2022-06-06 at 17.32.30.jpeg" alt="">
-                        <br>
-                        <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, voluptatem. Labore rerum sit consectetur cum dolorem odit libero in error, nam omnis. Dolore maiores a obcaecati eum iure quod id. Lorem ipsum dolor sit, amet
-                        consectetur adipisicing elit. Modi fugiat alias dignissimos quis, earum eius recusandae delectus odit possimus assumenda libero corporis labore atque. Enim numquam at dolores eos vero. Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. At ducimus, dolore reprehenderit incidunt similique, sequi dolores necessitatibus, odit qui accusamus ipsa voluptas inventore nesciunt sint praesentium iure optio pariatur! Accusamus!
-                        <hr>
+                        </div>
+                        <div class="modal-body">
+                            Notícias dos Ensinos Médios
+                            <hr>
+                            <br>
+                            <h2 class="title text-center">#Primeira do dia</h2>
+                            <br>
+                            <img src="eventojornal.png" alt="">
+                            <br>
+                            <br> O Jornal ETECNEWS foi desenvolvido na 2ª Série do Itinerário Formativo em Linguagens, no componente curricular de Laboratório de Processos Criativos, pela professora Silvana Zution Heidrich, com o apoio da coordenadora
+                            de curso professora Mariana Porto. Os temas foram sugeridos pela professora juntamente com os alunos, e para que fosse possível a participação dos 40 alunos, a classe foi dividida em duplas para que pudessem escrever as notícias,
+                            realizar entrevistas e buscar as informações, de forma muito verdadeira e transparente. A divulgação da 1ª edição do Jornal ETECNEWS ocorreu no dia 03/05 para toda comunidade escolar, nas dependências da Etec de Lins, onde
+                            os alunos puderam contar um pouco sobre este projeto, que a princípio, ocorrerá mensalmente, e estará disponível no site e nas redes sociais da Etec de Lins.
+                            <hr>
+                            <h2 class="title text-center">#Segunda para animar</h2>
+                            <br>
+                            <img src="WhatsApp Image 2022-06-06 at 17.32.30.jpeg" alt="">
+                            <br>
+                            <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, voluptatem. Labore rerum sit consectetur cum dolorem odit libero in error, nam omnis. Dolore maiores a obcaecati eum iure quod id. Lorem ipsum dolor sit,
+                            amet consectetur adipisicing elit. Modi fugiat alias dignissimos quis, earum eius recusandae delectus odit possimus assumenda libero corporis labore atque. Enim numquam at dolores eos vero. Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit. At ducimus, dolore reprehenderit incidunt similique, sequi dolores necessitatibus, odit qui accusamus ipsa voluptas inventore nesciunt sint praesentium iure optio pariatur! Accusamus!
+                            <hr>
 
-                        <h2 class="title text-center">#Terceira e última </h2>
-                        <br>
-                        <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, eos excepturi libero animi consectetur reiciendis autem illo cupiditate id quidem ratione dignissimos ea molestias ducimus dicta delectus accusamus ipsa. Veniam.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum est iure minus deleniti fugit, aliquid, nobis autem quae sunt, dolorum dolor perferendis. Earum placeat ea ex magnam quo maxime adipisci? Lorem ipsum dolor sit amet consectetur,
-                        adipisicing elit. In soluta molestias commodi quae iste alias. Quia atque laborum distinctio quod rerum ipsum quibusdam molestias. Necessitatibus earum ducimus dolore fuga iusto.
+                            <h2 class="title text-center">#Terceira e última </h2>
+                            <br>
+                            <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, eos excepturi libero animi consectetur reiciendis autem illo cupiditate id quidem ratione dignissimos ea molestias ducimus dicta delectus accusamus ipsa.
+                            Veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum est iure minus deleniti fugit, aliquid, nobis autem quae sunt, dolorum dolor perferendis. Earum placeat ea ex magnam quo maxime adipisci? Lorem ipsum dolor
+                            sit amet consectetur, adipisicing elit. In soluta molestias commodi quae iste alias. Quia atque laborum distinctio quod rerum ipsum quibusdam molestias. Necessitatibus earum ducimus dolore fuga iusto.
 
 
 
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!--modal 2-->
-        <div class="modal fade" id="ModalLongoExemploedf" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="TituloModalLongoExemplo">Tecnico em Edificações</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <!--modal 2-->
+            <div class="modal fade" id="ModalLongoExemploedf" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalLongoExemplo">Tecnico em Edificações</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
-                    </div>
-                    <div class="modal-body">
-                        Notícias de Edificações
-                        <hr>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                        <div class="modal-body">
+                            Notícias de Edificações
+                            <hr>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!--modal 3-->
-        <div class="modal fade" id="ModalLongoExemploquimic" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="TituloModalLongoExemplo">Tecnico em Quimica</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <!--modal 3-->
+            <div class="modal fade" id="ModalLongoExemploquimic" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalLongoExemplo">Tecnico em Quimica</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
-                    </div>
-                    <div class="modal-body">
-                        Notícias de Quimica
-                        <hr>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                        <div class="modal-body">
+                            Notícias de Quimica
+                            <hr>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!--modal 4-->
-        <div class="modal fade" id="ModalLongoExemplorh" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="TituloModalLongoExemplo">Tecnico em Recursos Humanos </h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <!--modal 4-->
+            <div class="modal fade" id="ModalLongoExemplorh" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalLongoExemplo">Tecnico em Recursos Humanos </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
-                    </div>
-                    <div class="modal-body">
-                        Notícias de Recursos-humanos
-                        <hr>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                        <div class="modal-body">
+                            Notícias de Recursos-humanos
+                            <hr>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!--modal 5-->
-        <div class="modal fade" id="ModalLongoExemplosj" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="TituloModalLongoExemplo">Tecnico em Serviços Juridicos</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <!--modal 5-->
+            <div class="modal fade" id="ModalLongoExemplosj" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalLongoExemplo">Tecnico em Serviços Juridicos</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
-                    </div>
-                    <div class="modal-body">
-                        Notícias de Serviços Juridicos
-                        <hr>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                        <div class="modal-body">
+                            Notícias de Serviços Juridicos
+                            <hr>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!--modal 6-->
-        <div class="modal fade" id="ModalLongoExemplomec" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="TituloModalLongoExemplo">Tecnico em Mecatronica</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <!--modal 6-->
+            <div class="modal fade" id="ModalLongoExemplomec" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalLongoExemplo">Tecnico em Mecatronica</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
-                    </div>
-                    <div class="modal-body">
-                        Notícias de Mecatronica
-                        <hr>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                        <div class="modal-body">
+                            Notícias de Mecatronica
+                            <hr>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!--modal 7-->
-        <div class="modal fade" id="ModalLongoExemploadm" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="TituloModalLongoExemplo">Tecnico em Administração</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <!--modal 7-->
+            <div class="modal fade" id="ModalLongoExemploadm" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalLongoExemplo">Tecnico em Administração</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
-                    </div>
-                    <div class="modal-body">
-                        Notícias de Administração
-                        <hr>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                        <div class="modal-body">
+                            Notícias de Administração
+                            <hr>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!--modal 8-->
-        <div class="modal fade" id="ModalLongoExemploef" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="TituloModalLongoExemplo">Tecnico em Enfermagem</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <!--modal 8-->
+            <div class="modal fade" id="ModalLongoExemploef" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalLongoExemplo">Tecnico em Enfermagem</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
-                    </div>
-                    <div class="modal-body">
-                        Notícias de Enfermagem
-                        <hr>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                        <div class="modal-body">
+                            Notícias de Enfermagem
+                            <hr>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!--modal 9-->
-        <div class="modal fade" id="ModalLongoExemploetec" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="TituloModalLongoExemplo">Etec Lins</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <!--modal 9-->
+            <div class="modal fade" id="ModalLongoExemploetec" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalLongoExemplo">Etec Lins</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
     <span aria-hidden="true">&times;</span>
   </button>
-                    </div>
-                    <div class="modal-body">
-                        Notícias da Etec de Lins
-                        <hr>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                        <div class="modal-body">
+                            Notícias da Etec de Lins
+                            <hr>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!--modal 10-->
-        <div class="modal fade" id="ModalLongoExemplojornal" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="TituloModalLongoExemplo">Jornal</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <!--modal 10-->
+            <div class="modal fade" id="ModalLongoExemplojornal" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="TituloModalLongoExemplo">Jornal</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
     <span aria-hidden="true">&times;</span>
   </button>
-                    </div>
-                    <div class="modal-body">
-                        Confira o Jornal desenvolvido para a Etec News
-                        <hr>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>
+                        <div class="modal-body">
+                            Confira o Jornal desenvolvido para a Etec News
+                            <hr>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--FIM DOS MODAIS-->
+            <!--FIM DOS MODAIS-->
 
 
 
@@ -795,439 +798,439 @@
 
 
 
-        <center>
-            <div class="container">
-                <h2 class="title text-center">#Notícias</h2>
-                <h4 class="subtitle text-center mb-4"> Acesse as Notícias por curso da Etec Lins</h4>
-            </div>
-
-            <main id="noticias">
-
-                <div class="container2">
-                    <div class="card">
-                        <div class="face face1">
-                            <div class="content">
-                                <img src="livros.png">
-                                <h3>Ensinos Médios</h3>
-                            </div>
-                        </div>
-                        <div class="face face2">
-                            <div class="content">
-                                <h5 class="title text-center">#Notícia principal</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                                <br>
-                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemploem">
-                                    Ver mais notícias
-                                  </button>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <div class="card">
-                        <div class="face face1">
-                            <div class="content">
-                                <img src="hook.png">
-                                <h3>Tecnico em Edificações</h3>
-                            </div>
-                        </div>
-                        <div class="face face2">
-                            <div class="content">
-                                <h5 class="title text-center">#Notícia Principal</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                                <br>
-                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemploedf">
-                                    Ver mais notícias
-                                  </button>
-                            </div>
-                        </div>
-                    </div>
-
-
+            <center>
+                <div class="container">
+                    <h2 class="title text-center">#Notícias</h2>
+                    <h4 class="subtitle text-center mb-4"> Acesse as Notícias por curso da Etec Lins</h4>
                 </div>
 
+                <main id="noticias">
 
-
-
-                <div class="container2">
-                    <div class="card">
-                        <div class="face face1">
-                            <div class="content">
-                                <img src="chemical.png">
-                                <h3>Técnico em Química</h3>
+                    <div class="container2">
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    <img src="livros.png">
+                                    <h3>Ensinos Médios</h3>
+                                </div>
                             </div>
-                        </div>
-                        <div class="face face2">
-                            <div class="content">
-                                <h5 class="title text-center">#Notícia principal</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                                <br>
-                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemploquimic">
+                            <div class="face face2">
+                                <div class="content">
+                                    <h5 class="title text-center">#Notícia principal</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                                    <br>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemploem">
                                     Ver mais notícias
                                   </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    <img src="hook.png">
+                                    <h3>Tecnico em Edificações</h3>
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="content">
+                                    <h5 class="title text-center">#Notícia Principal</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                                    <br>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemploedf">
+                                    Ver mais notícias
+                                  </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="container2">
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    <img src="chemical.png">
+                                    <h3>Técnico em Química</h3>
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="content">
+                                    <h5 class="title text-center">#Notícia principal</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                                    <br>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemploquimic">
+                                    Ver mais notícias
+                                  </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    <img src="recursos-humanos.png">
+                                    <h3>Tecnico em Recursos Humanos</h3>
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="content">
+                                    <h5 class="title text-center">#Notícia principal</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                                    <br>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemplorh">
+                                    Ver mais notícias
+                                  </button>
+                                </div>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="card">
-                        <div class="face face1">
-                            <div class="content">
-                                <img src="recursos-humanos.png">
-                                <h3>Tecnico em Recursos Humanos</h3>
+
+                    <div class="container2">
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    <img src="lei.png">
+                                    <h3>Tecnico em Serviços Júridicos</h3>
+                                </div>
                             </div>
-                        </div>
-                        <div class="face face2">
-                            <div class="content">
-                                <h5 class="title text-center">#Notícia principal</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                                <br>
-                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemplorh">
+                            <div class="face face2">
+                                <div class="content">
+                                    <h5 class="title text-center">#Notícia principal</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                                    <br>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemplosj">
                                     Ver mais notícias
                                   </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    <img src="robo-industrial.png">
+                                    <h3>Técnico em Mecatrônica</h3>
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="content">
+                                    <h5 class="title text-center">#Notícia principal</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                                    <br>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemplomec">
+                                    Ver mais notícias
+                                  </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="container2">
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    <img src="idea.png">
+                                    <h3>Técnico em Administração</h3>
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="content">
+                                    <h5 class="title text-center">#Notícia principal</h5>
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at. </p>
+                                    <br>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemploadm">
+                                    Ver mais notícias
+                                  </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    <img src="medical-team.png">
+                                    <h3>Tecnico em Enfermagem</h3>
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="content">
+                                    <h5 class="title text-center">#Notícia principal</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                                    <br>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemploef">
+                                    Ver mais notícias
+                                  </button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-
-
-                <div class="container2">
-                    <div class="card">
-                        <div class="face face1">
-                            <div class="content">
-                                <img src="lei.png">
-                                <h3>Tecnico em Serviços Júridicos</h3>
+                    <div class="container2">
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    <img src="etec15anos.png">
+                                    <h3>Etec</h3>
+                                </div>
                             </div>
-                        </div>
-                        <div class="face face2">
-                            <div class="content">
-                                <h5 class="title text-center">#Notícia principal</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                                <br>
-                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemplosj">
+                            <div class="face face2">
+                                <div class="content">
+                                    <h5 class="title text-center">#Notícia principal</h5>
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at. </p>
+                                    <br>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemploetec">
                                     Ver mais notícias
                                   </button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-
-                    <div class="card">
-                        <div class="face face1">
-                            <div class="content">
-                                <img src="robo-industrial.png">
-                                <h3>Técnico em Mecatrônica</h3>
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    <img src="jornal.png">
+                                    <h3>Jornal </h3>
+                                </div>
                             </div>
-                        </div>
-                        <div class="face face2">
-                            <div class="content">
-                                <h5 class="title text-center">#Notícia principal</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                                <br>
-                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemplomec">
-                                    Ver mais notícias
-                                  </button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="container2">
-                    <div class="card">
-                        <div class="face face1">
-                            <div class="content">
-                                <img src="idea.png">
-                                <h3>Técnico em Administração</h3>
-                            </div>
-                        </div>
-                        <div class="face face2">
-                            <div class="content">
-                                <h5 class="title text-center">#Notícia principal</h5>
-                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at. </p>
-                                <br>
-                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemploadm">
-                                    Ver mais notícias
-                                  </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="face face1">
-                            <div class="content">
-                                <img src="medical-team.png">
-                                <h3>Tecnico em Enfermagem</h3>
-                            </div>
-                        </div>
-                        <div class="face face2">
-                            <div class="content">
-                                <h5 class="title text-center">#Notícia principal</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                                <br>
-                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemploef">
-                                    Ver mais notícias
-                                  </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container2">
-                    <div class="card">
-                        <div class="face face1">
-                            <div class="content">
-                                <img src="etec15anos.png">
-                                <h3>Etec</h3>
-                            </div>
-                        </div>
-                        <div class="face face2">
-                            <div class="content">
-                                <h5 class="title text-center">#Notícia principal</h5>
-                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at. </p>
-                                <br>
-                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemploetec">
-                                    Ver mais notícias
-                                  </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="face face1">
-                            <div class="content">
-                                <img src="jornal.png">
-                                <h3>Jornal </h3>
-                            </div>
-                        </div>
-                        <div class="face face2">
-                            <div class="content">
-                                <h5 class="title text-center">#Etec News</h5>
-                                <p>Confira o jornal desenvolvido pelo 2º Linguagens para a Etec News.</p>
-                                <br>
-                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemplojornal">
+                            <div class="face face2">
+                                <div class="content">
+                                    <h5 class="title text-center">#Etec News</h5>
+                                    <p>Confira o jornal desenvolvido pelo 2º Linguagens para a Etec News.</p>
+                                    <br>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ModalLongoExemplojornal">
                                     Acessar
                                   </button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
 
 
 
 
-        </center>
-        </main>
-        <br>
-        <br>
-        <br>
+            </center>
+            </main>
+            <br>
+            <br>
+            <br>
 
 
 
 
 
-        <div id="servicos" class="block">
-            <div class="container">
+            <div id="servicos" class="block">
                 <div class="container">
-                    <h2 class="title text-center">#Eventos</h2>
-                    <h4 class="subtitle text-center mb-4"> Acesse os Eventos da Etec Lins</h4>
-                </div>
+                    <div class="container">
+                        <h2 class="title text-center">#Eventos</h2>
+                        <h4 class="subtitle text-center mb-4"> Acesse os Eventos da Etec Lins</h4>
+                    </div>
 
-                <div class="button-group">
-                    <button type="button" class="active" data-filter="*" id="btn-all">
+                    <div class="button-group">
+                        <button type="button" class="active" data-filter="*" id="btn-all">
                         Todas os Eventos
                 </button>
-                    <br>
-                    <button type="button" data-filter=".Escola">Eventos da Etec Lins</button>
-                    <br>
-                    <br>
+                        <br>
+                        <button type="button" data-filter=".Escola">Eventos da Etec Lins</button>
+                        <br>
+                        <br>
 
 
-                    <button type="button" data-filter=".Em">Ensinos Médios</button>
+                        <button type="button" data-filter=".Em">Ensinos Médios</button>
 
-                    <button type="button" data-filter=".tecadm">Técnico em Administração</button>
-                    <button type="button" data-filter=".teced">Técnico em Edificações</button>
-                    <button type="button" data-filter=".tecem"> Técnico em Enfermagem</button>
-                    <button type="button" data-filter=".tecqm"> Técnico em Quimica</button>
-                    <button type="button" data-filter=".tecrh"> Técnico em Recursos Humanos</button>
-                    <button type="button" data-filter=".tecsj"> Técnico em Serviços Juridicos</button>
-                    <button type="button" data-filter=".tecmc"> Técnico em Mecatrônica</button>
-
-                </div>
-
-                <div class="row grid">
-
-                    <!--juridico-->
-                    <div class="col-lg-4 col-6 mb-4 element-item tecsj ">
-                        <a href="#" class="popup-link">
-                            <img src="eventojuridico.png" class="img-fluid mb-2" />
-                        </a>
-                        <h5 class="text-uppercase mb-1"> Tecnico em Serviços Jurídicos</h5>
-                        <p class="mb-0">
-                            <span class="badge bg-light text-dark">Seviços Jurídicos</span>
-                        </p>
-
-
-                        <!--Etec festa junina-->
+                        <button type="button" data-filter=".tecadm">Técnico em Administração</button>
+                        <button type="button" data-filter=".teced">Técnico em Edificações</button>
+                        <button type="button" data-filter=".tecem"> Técnico em Enfermagem</button>
+                        <button type="button" data-filter=".tecqm"> Técnico em Quimica</button>
+                        <button type="button" data-filter=".tecrh"> Técnico em Recursos Humanos</button>
+                        <button type="button" data-filter=".tecsj"> Técnico em Serviços Juridicos</button>
+                        <button type="button" data-filter=".tecmc"> Técnico em Mecatrônica</button>
 
                     </div>
-                    <div class="col-lg-4 col-6 mb-4 element-item Escola">
-                        <a href="#" class="popup-link">
-                            <img src="eventosetec.png" class="img-fluid mb-2" />
-                        </a>
-                        <h5 class="text-uppercase">Festa Junina</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">Eventos da Etec Lins</span>
-                        </p>
 
-                        <!--Administração-->
-                    </div>
-                    <div class="col-lg-4 col-6 mb-4 element-item tecadm">
-                        <a href="#" class="popup-link">
-                            <img src="eventoadm.png" class="img-fluid mb-2" />
-                        </a>
-                        <h5 class="text-uppercase">Técnico em Administração</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">Administração</span>
-                        </p>
-                    </div>
+                    <div class="row grid">
 
-                    <!--Edificações-->
-                    <div class="col-lg-4 col-6 mb-4 element-item teced">
-                        <a href="#" class="popup-link">
-                            <img src="eventoed.png" class="img-fluid mb-2" />
-                        </a>
-                        <h5 class="text-uppercase">Técnico em Edificações</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">Edificações</span>
-                        </p>
-                    </div>
-
-                    <!--Enfermagem-->
-                    <div class="col-lg-4 col-6 mb-4 element-item tecem">
-                        <a href="#" class="popup-link">
-                            <img src="eventoenfermagem.png" class="img-fluid mb-2" />
-                        </a>
-                        <h5 class="text-uppercase">Técnico em Enfermagem</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">Enfermagem</span>
-                        </p>
-                    </div>
-
-                    <!--Quimica-->
-                    <div class="col-lg-4 col-6 mb-4 element-item tecqm">
-                        <a href="#" class="popup-link">
-                            <img src="eventoquimica.png" class="img-fluid mb-2" />
-                        </a>
-                        <h5 class="text-uppercase">Técnico em Quimica
-                            <h5>
-                                <p class="mb-0 tags">
-
-                                    <span class="badge bg-light text-dark">Quimica</span>
-                                </p>
-                    </div>
+                        <!--juridico-->
+                        <div class="col-lg-4 col-6 mb-4 element-item tecsj ">
+                            <a href="#" class="popup-link">
+                                <img src="eventojuridico.png" class="img-fluid mb-2" />
+                            </a>
+                            <h5 class="text-uppercase mb-1"> Tecnico em Serviços Jurídicos</h5>
+                            <p class="mb-0">
+                                <span class="badge bg-light text-dark">Seviços Jurídicos</span>
+                            </p>
 
 
-                    <!--Mecatronica-->
-                    <div class="col-lg-4 col-6 mb-4 element-item tecmc">
-                        <a href="#" class="popup-link">
-                            <img src="eventomecatronica.png" class="img-fluid mb-2" />
-                        </a>
-                        <h5 class="text-uppercase"> Técnico em Mecatrônica</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">Mecatrônica</span>
-                        </p>
-                    </div>
+                            <!--Etec festa junina-->
+
+                        </div>
+                        <div class="col-lg-4 col-6 mb-4 element-item Escola">
+                            <a href="#" class="popup-link">
+                                <img src="eventosetec.png" class="img-fluid mb-2" />
+                            </a>
+                            <h5 class="text-uppercase">Festa Junina</h5>
+                            <p class="mb-0 tags">
+                                <span class="badge bg-light text-dark">Eventos da Etec Lins</span>
+                            </p>
+
+                            <!--Administração-->
+                        </div>
+                        <div class="col-lg-4 col-6 mb-4 element-item tecadm">
+                            <a href="#" class="popup-link">
+                                <img src="eventoadm.png" class="img-fluid mb-2" />
+                            </a>
+                            <h5 class="text-uppercase">Técnico em Administração</h5>
+                            <p class="mb-0 tags">
+                                <span class="badge bg-light text-dark">Administração</span>
+                            </p>
+                        </div>
+
+                        <!--Edificações-->
+                        <div class="col-lg-4 col-6 mb-4 element-item teced">
+                            <a href="#" class="popup-link">
+                                <img src="eventoed.png" class="img-fluid mb-2" />
+                            </a>
+                            <h5 class="text-uppercase">Técnico em Edificações</h5>
+                            <p class="mb-0 tags">
+                                <span class="badge bg-light text-dark">Edificações</span>
+                            </p>
+                        </div>
+
+                        <!--Enfermagem-->
+                        <div class="col-lg-4 col-6 mb-4 element-item tecem">
+                            <a href="#" class="popup-link">
+                                <img src="eventoenfermagem.png" class="img-fluid mb-2" />
+                            </a>
+                            <h5 class="text-uppercase">Técnico em Enfermagem</h5>
+                            <p class="mb-0 tags">
+                                <span class="badge bg-light text-dark">Enfermagem</span>
+                            </p>
+                        </div>
+
+                        <!--Quimica-->
+                        <div class="col-lg-4 col-6 mb-4 element-item tecqm">
+                            <a href="#" class="popup-link">
+                                <img src="eventoquimica.png" class="img-fluid mb-2" />
+                            </a>
+                            <h5 class="text-uppercase">Técnico em Quimica
+                                <h5>
+                                    <p class="mb-0 tags">
+
+                                        <span class="badge bg-light text-dark">Quimica</span>
+                                    </p>
+                        </div>
+
+
+                        <!--Mecatronica-->
+                        <div class="col-lg-4 col-6 mb-4 element-item tecmc">
+                            <a href="#" class="popup-link">
+                                <img src="eventomecatronica.png" class="img-fluid mb-2" />
+                            </a>
+                            <h5 class="text-uppercase"> Técnico em Mecatrônica</h5>
+                            <p class="mb-0 tags">
+                                <span class="badge bg-light text-dark">Mecatrônica</span>
+                            </p>
+                        </div>
 
 
 
-                    <!--juridico-->
-                    <div class="col-lg-4 col-6 mb-4 element-item tecsj">
-                        <a href="#" class="popup-link">
-                            <img src="eventojuridico2.png" class="img-fluid mb-2" />
-                        </a>
-                        <h5 class="text-uppercase">Técnico em Serviços Jurídicos</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">Seviços Jurídicos</span>
-                        </p>
-                    </div>
+                        <!--juridico-->
+                        <div class="col-lg-4 col-6 mb-4 element-item tecsj">
+                            <a href="#" class="popup-link">
+                                <img src="eventojuridico2.png" class="img-fluid mb-2" />
+                            </a>
+                            <h5 class="text-uppercase">Técnico em Serviços Jurídicos</h5>
+                            <p class="mb-0 tags">
+                                <span class="badge bg-light text-dark">Seviços Jurídicos</span>
+                            </p>
+                        </div>
 
-                    <!--Evento etec-->
-                    <div class="col-lg-4 col-6 mb-4 element-item Escola">
-                        <a href="#" class="popup-link">
-                            <img src="Festa Junina convite, alegre, amarelo instagram post.png" class="img-fluid mb-2" />
-                        </a>
-                        <h5 class="text-uppercase"> Festa Junina</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">Eventos da Etec Lins</span>
-                        </p>
-                    </div>
+                        <!--Evento etec-->
+                        <div class="col-lg-4 col-6 mb-4 element-item Escola">
+                            <a href="#" class="popup-link">
+                                <img src="Festa Junina convite, alegre, amarelo instagram post.png" class="img-fluid mb-2" />
+                            </a>
+                            <h5 class="text-uppercase"> Festa Junina</h5>
+                            <p class="mb-0 tags">
+                                <span class="badge bg-light text-dark">Eventos da Etec Lins</span>
+                            </p>
+                        </div>
 
-                    <!--Ensinos Médios-->
-                    <div class="col-lg-4 col-6 mb-4 element-item Em">
-                        <a href="#" class="popup-link">
-                            <img src="Post Instagram açaí dia dos namorados frase roxo e branco.png" class="img-fluid mb-2" />
-                        </a>
-                        <h5 class="text-uppercase"> 2º DS</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">Ensinos Médios</span>
-                        </p>
-                    </div>
+                        <!--Ensinos Médios-->
+                        <div class="col-lg-4 col-6 mb-4 element-item Em">
+                            <a href="#" class="popup-link">
+                                <img src="Post Instagram açaí dia dos namorados frase roxo e branco.png" class="img-fluid mb-2" />
+                            </a>
+                            <h5 class="text-uppercase"> 2º DS</h5>
+                            <p class="mb-0 tags">
+                                <span class="badge bg-light text-dark">Ensinos Médios</span>
+                            </p>
+                        </div>
 
-                    <!--Ensino médio-->
-                    <div class="col-lg-4 col-6 mb-4 element-item Em">
-                        <a href="#" class="popup-link">
-                            <img src="eventojornal.png" class="img-fluid mb-2" />
-                        </a>
-                        <h5 class="text-uppercase">2º Linguagens</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">Ensinos Médios</span>
-                        </p>
-                    </div>
-                    <!--Recursos Humanos-->
-                    <div class="col-lg-4 col-6 mb-4 element-item  tecrh">
-                        <a href="#" class="popup-link">
-                            <img src="eventorh.png" class="img-fluid mb-2" />
-                        </a>
-                        <h5 class="text-uppercase">Técnico em Recursos Humanos</h5>
-                        <p class="mb-0 tags">
-                            <span class="badge bg-light text-dark">Recursos humanos</span>
-                        </p>
+                        <!--Ensino médio-->
+                        <div class="col-lg-4 col-6 mb-4 element-item Em">
+                            <a href="#" class="popup-link">
+                                <img src="eventojornal.png" class="img-fluid mb-2" />
+                            </a>
+                            <h5 class="text-uppercase">2º Linguagens</h5>
+                            <p class="mb-0 tags">
+                                <span class="badge bg-light text-dark">Ensinos Médios</span>
+                            </p>
+                        </div>
+                        <!--Recursos Humanos-->
+                        <div class="col-lg-4 col-6 mb-4 element-item  tecrh">
+                            <a href="#" class="popup-link">
+                                <img src="eventorh.png" class="img-fluid mb-2" />
+                            </a>
+                            <h5 class="text-uppercase">Técnico em Recursos Humanos</h5>
+                            <p class="mb-0 tags">
+                                <span class="badge bg-light text-dark">Recursos humanos</span>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
 
 
 
-        <section class="galeria">
-            <div class="container">
+            <section class="galeria">
+                <div class="container">
 
-                <div class="col">
-                    <h2>História</h2>
-                    <p>Nossa missão é oferecer ensino de qualidade, visando a formação integral, ética, empreendedora, com responsabilidade social e ao meio ambiente e nossa visão é ser referência na educação básica e profissional, buscando aprimoramento
-                        contínuo e inovando sempre.</p>
+                    <div class="col">
+                        <h2>História</h2>
+                        <p>Nossa missão é oferecer ensino de qualidade, visando a formação integral, ética, empreendedora, com responsabilidade social e ao meio ambiente e nossa visão é ser referência na educação básica e profissional, buscando aprimoramento
+                            contínuo e inovando sempre.</p>
 
-                    <p>Fonte:
-                        <a href="https://www.eteclins.com.br/2021/historia.html" target="_blank">Etec Lins</a></p>
+                        <p>Fonte:
+                            <a href="https://www.eteclins.com.br/2021/historia.html" target="_blank">Etec Lins</a></p>
+                    </div>
+
+
+                    <div class="col">
+                        <img src="WhatsApp Image 2022-05-02 at 17.15.12.png" alt="">
+                    </div>
+
+
                 </div>
-
-
-                <div class="col">
-                    <img src="WhatsApp Image 2022-05-02 at 17.15.12.png" alt="">
-                </div>
-
-
-            </div>
-        </section>
+            </section>
 
 
 
 
-        <!--contato teste
+            <!--contato teste
         <main id="contatos">
             <div class="container">
                 <div class="background">
@@ -1315,183 +1318,167 @@
                 </div>
             </div>
         </main>-->
-        <!--fim teste contato-->
+            <!--fim teste contato-->
 
 
-        <!--rapha contato teste do 0-->
+            <!--rapha contato teste do 0-->
 
 
-        <div class="container-contatorapha">
-            <span class="circulo-grande"></span>
-            <img src="img/shape.png" class="square" alt="" />
-            <div class="form-contato">
-                <div class="contato-info">
+            <div class="container-contatorapha">
+                <span class="circulo-grande"></span>
+                <img src="img/shape.png" class="square" alt="" />
+                <div class="form-contato">
+                    <div class="contato-info">
 
 
 
-                    <h3 class="titulozinho">Etec Lins</h3>
-                    <p class="textinho">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3707.759422997762!2d-49.763368684456736!3d-21.6732140004662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be1432bf1e0177%3A0x9ad68c040e06f20b!2sEtec%20de%20Lins!5e0!3m2!1spt-PT!2sbg!4v1652804569910!5m2!1spt-PT!2sbg"
-                            frameborder="0" style="border-radius:5px; width: 100%; height: 290px;" allowfullscreen></iframe>
-                    </p>
+                        <h3 class="titulozinho">Etec Lins</h3>
+                        <p class="textinho">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3707.759422997762!2d-49.763368684456736!3d-21.6732140004662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be1432bf1e0177%3A0x9ad68c040e06f20b!2sEtec%20de%20Lins!5e0!3m2!1spt-PT!2sbg!4v1652804569910!5m2!1spt-PT!2sbg"
+                                frameborder="0" style="border-radius:5px; width: 100%; height: 290px;" allowfullscreen></iframe>
+                        </p>
 
-                    <div class="informacoes">
-                        <div class="informatioon">
-                            <div class="backdoicon">
-                                <i class="fa-solid fa-location-dot" class="icone" alt="" style="padding-left: 0;"></div></i>
-                                <p> Rua São Pedro, 300 Lins, SP 16.400-570 Brasil</p>
-
-                            </div>
+                        <div class="informacoes">
                             <div class="informatioon">
                                 <div class="backdoicon">
+                                    <i class="fa-solid fa-location-dot" class="icone" alt="" style="padding-left: 0;"></div></i>
+                                    <p> Rua São Pedro, 300 Lins, SP 16.400-570 Brasil</p>
 
-                                    <i class="fa-solid fa-envelope" class="icone" alt="" style="padding-left: 0;"></div></i>
-                                    <p>e148.ata@etec.sp.gov.br</p>
                                 </div>
                                 <div class="informatioon">
                                     <div class="backdoicon">
-                                        <i class="fa-solid fa-phone" class="icone" alt="" style="padding-left: 0;"></div></i>
-                                        <p>(14) 3523-1217 <br> (14) 3523-4859 </p>
+
+                                        <i class="fa-solid fa-envelope" class="icone" alt="" style="padding-left: 0;"></div></i>
+                                        <p>e148.ata@etec.sp.gov.br</p>
                                     </div>
+                                    <div class="informatioon">
+                                        <div class="backdoicon">
+                                            <i class="fa-solid fa-phone" class="icone" alt="" style="padding-left: 0;"></div></i>
+                                            <p>(14) 3523-1217 <br> (14) 3523-4859 </p>
+                                        </div>
+                                    </div>
+
+
                                 </div>
 
-                                <div class="redes-sociais">
-                                    <p>Connect with us :</p>
-                                    <div class="icones-redes">
-                                        <a href="#">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-instagram"></i>
-                                        </a>
-                                        <a href="#">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                                <div class="contato-form">
+                                    <span class="circulo-um"></span>
+                                    <span class="circulo-dois"></span>
 
-                            <div class="contato-form">
-                                <span class="circulo-um"></span>
-                                <span class="circulo-dois"></span>
-
-                                <form action="https://formsubmit.co/raphaelamirandola@hotmail.com" method="POST">
+                                    <form action="https://formsubmit.co/raphaelamirandola@hotmail.com" method="POST">
 
 
-                                    <h3 class="titulozinhoo">Contate Nos</h3>
-                                    <br>
-
-                                    <span style="color:white;">Nome</span>
-                                    <div class="input-container">
-                                        <input type="text" name="name" class="input" placeholder="Nome Completo" required />
-                                    </div>
-
-
-                                    <span style="color:white;">E-mail</span>
-                                    <div class="input-container">
-                                        <input type="email" name="email" class="input" placeholder="E-mail Válido" required />
-                                    </div>
-
-
-                                    <span style="color:white;">Telefone</span>
-                                    <div class="input-container">
-                                        <input type="tel" name="phone" class="input" placeholder="Telefone" required />
-                                        <span>Phone</span>
-                                    </div>
-
-
-                                    <span style="color:white;">Mensagem</span>
-                                    <div class="input-container textarea">
-                                        <textarea name="message" class="input" placeholder="Escreva sua Mensagem" required></textarea>
-
-
-
-                                    </div>
-                                    <input type="submit" value="Enviar" class="butao" />
-                                    <input type="hidden" name="_captcha" value="false">
-                                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
-                                </form>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
-
-
-
-
-                    <!-- Site footer -->
-                    <footer class="site-footer">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-6">
-                                    <h6><img class="img-fluid" src="etec logo.png" alt=""></h6>
-                                    <p class="text-justify"> <br> Rua São Pedro, 300 Lins, SP 16.400-570 Brasil
+                                        <h3 class="titulozinhoo">Contate Nos</h3>
                                         <br>
-                                        <br> Telefone: (14) 3523-1217 <br> Telefone: (14) 3523-4859</p>
-                                </div>
+
+                                        <span style="color:white;">Nome</span>
+                                        <div class="input-container">
+                                            <input type="text" name="name" class="input" placeholder="Nome Completo" required />
+                                        </div>
 
 
-                                <!--footer-->
-                                <div class="col-xs-6 col-md-3">
-                                    <h6>Sites da Etec</h6>
-                                    <ul class="footer-links">
-                                        <li><a href="https://www.eteclins.com.br/2021/historia.html">Site da Etec Lins</a></li>
-                                        <li><a href="https://www.eteclins.com.br/vestibulinho/">Site do Vestibulinho</a></li>
-
-                                    </ul>
-                                </div>
-
-                                <div class="col-xs-6 col-md-3">
-                                    <h6>Links Rapidos</h6>
-                                    <ul class="footer-links">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#noticias">Cursos</a></li>
-                                        <li><a href="#servicos">Eventos</a></li>
-                                        <li><a href="#contatos">Contatos</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <hr>
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-8 col-sm-6 col-xs-12">
-                                    <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by Maria Júlia e Raphaela
-                                    </p>
-                                </div>
-
-                                <div class="col-md-4 col-sm-6 col-xs-12">
-                                    <ul class="social-icons">
-                                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a class="dribbble" href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <span style="color:white;">E-mail</span>
+                                        <div class="input-container">
+                                            <input type="email" name="email" class="input" placeholder="E-mail Válido" required />
+                                        </div>
 
 
-                                    </ul>
+                                        <span style="color:white;">Telefone</span>
+                                        <div class="input-container">
+                                            <input type="tel" name="phone" class="input" placeholder="Telefone" required />
+                                            <span>Phone</span>
+                                        </div>
+
+
+                                        <span style="color:white;">Mensagem</span>
+                                        <div class="input-container textarea">
+                                            <textarea name="message" class="input" placeholder="Escreva sua Mensagem" required></textarea>
+
+
+
+                                        </div>
+                                        <input type="submit" value="Enviar" class="butao" />
+                                        <input type="hidden" name="_captcha" value="false">
+                                        <input type="hidden" name="_next" value="obrigado.html">
+                                    </form>
+
+
                                 </div>
                             </div>
                         </div>
-                    </footer>
 
-                    <!-- FIM FOOTER -->
+
+
+
+
+
+
+
+
+                        <!-- Site footer -->
+                        <footer class="site-footer">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <h6><img class="img-fluid" src="etec logo.png" alt=""></h6>
+                                        <p class="text-justify"> <br> Rua São Pedro, 300 Lins, SP 16.400-570 Brasil
+                                            <br>
+                                            <br> Telefone: (14) 3523-1217 <br> Telefone: (14) 3523-4859</p>
+                                    </div>
+
+
+                                    <!--footer-->
+                                    <div class="col-xs-6 col-md-3">
+                                        <h6>Sites da Etec</h6>
+                                        <ul class="footer-links">
+                                            <li><a href="https://www.eteclins.com.br/2021/historia.html">Site da Etec Lins</a></li>
+                                            <li><a href="https://www.eteclins.com.br/vestibulinho/">Site do Vestibulinho</a></li>
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-xs-6 col-md-3">
+                                        <h6>Links Rapidos</h6>
+                                        <ul class="footer-links">
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#noticias">Cursos</a></li>
+                                            <li><a href="#servicos">Eventos</a></li>
+                                            <li><a href="#contatos">Contatos</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-6 col-xs-12">
+                                        <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by Maria Júlia e Raphaela
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-4 col-sm-6 col-xs-12">
+                                        <ul class="social-icons">
+                                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a class="dribbble" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+
+                        <!-- FIM FOOTER -->
+        </main>
+
+
+
+
+
+
     </main>
-
-
-
-
-
-
-
 
 
     <!--principal-->

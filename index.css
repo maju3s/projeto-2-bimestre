@@ -2,10 +2,61 @@
 -------------------------------------------------- */
 
 
+/*Teste de Darkmode - Rapha */
+
+:root {
+    --color-text: #000;
+    --background-color: #fff;
+    --background-color2: #000;
+    --color-text2: #fff;
+}
+
+
 /* Padding abaixo do footer e texto mais suave no <body> */
 
 body {
     color: #5a5a5a;
+}
+
+main.corpo {
+    --background-color2: #000;
+    --color-text2: #fff;
+    --color-text: #000;
+    --background-color: #fff;
+    position: absolute;
+    width: 100%;
+    transition: .5s ease-in-out background, .5s ease-in-out color;
+}
+
+#darmodeToggle {
+    display: none;
+}
+
+#darkmodeToggle:checked+main {
+    --color-text: #fff;
+    --color-text2: #000;
+    --background-color: #000;
+    --background-color2: #fff;
+    background: var(--background-color);
+    color: var(--color-text);
+    transition: .5s ease-in-out background, .5s ease-in-out color;
+}
+
+#darkmodeToggle:checked+main .darkmodeLabel::after {
+    content: ' On';
+}
+
+.darkmodeLabel {
+    cursor: pointer;
+    color: gray;
+}
+
+.darkmodeLabel::after {
+    content: ' Off';
+}
+
+.modal {
+    color: #000;
 }
 
 html {
@@ -559,7 +610,9 @@ a.navbar-brand img.img-fluid {
 /* Carrossel 2 */
 
 .carousel .depoimento {
-    background-color: black;
+    --background-color2: #000;
+    --color-text2: #fff;
+    background-color: var(--background-color2);
     border-radius: 5px;
     display: flex;
     padding: 30px;
@@ -996,6 +1049,7 @@ a.navbar-brand img.img-fluid {
         padding: 0;
     }
 }
+*/
 
 .container h4.subtitle {
     margin-bottom: 50px;
@@ -1007,7 +1061,7 @@ a.navbar-brand img.img-fluid {
 
 span.negrito {
     font-weight: bold;
-}*/
+}
 
 
 /*contato - rapha */
@@ -1022,6 +1076,11 @@ span.negrito {
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+}
+
+.container-contatorapha p p:hover {
+    color: #f13239;
+    text-decoration: none;
 }
 
 .form-contato {
