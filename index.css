@@ -632,6 +632,11 @@ h4.title {
 
 h4.title:hover {
     color: #b30e10;
+    text-decoration: none;
+}
+
+a.tirar {
+    text-decoration: none;
 }
 
 
@@ -781,7 +786,7 @@ h4.title:hover {
     transform: translateY(-100px);
     background: var(--background-color);
     color: var(--background-color2);
-    transition: .5s ease-in-out background, .5s ease-in-out color;
+    transition: .5s ease-in-out background, ;
 }
 
 .container2 .card:hover .face.face2 {
@@ -1112,11 +1117,7 @@ span.negrito {
     align-items: center;
     justify-content: center;
     margin-top: 30px;
-}
-
-.container-contatorapha p p:hover {
-    color: #f13239;
-    text-decoration: none;
+    margin-bottom: 30px;
 }
 
 .form-contato {
@@ -1410,6 +1411,8 @@ textarea.input {
 @media (max-width: 480px) {
     .container-contatorapha {
         padding: 1.5rem;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     .contato-info:before {
         display: none;
@@ -1426,6 +1429,7 @@ textarea.input {
     .informatioon,
     .redes-sociais p {
         font-size: 0.8rem;
+        color: var(--color-text);
     }
     .titulozinho {
         font-size: 1.15rem;
@@ -1463,4 +1467,9 @@ textarea.input {
 
 ::placeholder {
     color: #bebcbc;
+}
+
+a.butaao {
+    border-radius: 10px;
+    background: var(--background-color);
 }
