@@ -724,6 +724,7 @@ h4.title:hover {
     cursor: pointer;
     background: var(--background-color);
     color: var(--background-color);
+    transition: .5s ease-in-out background, .5s ease-in-out color;
 }
 
 .container2 .card .face {
@@ -780,6 +781,7 @@ h4.title:hover {
     transform: translateY(-100px);
     background: var(--background-color);
     color: var(--background-color2);
+    transition: .5s ease-in-out background, .5s ease-in-out color;
 }
 
 .container2 .card:hover .face.face2 {
@@ -1283,6 +1285,7 @@ textarea.input {
     padding: 2.3rem 2.2rem;
     position: relative;
     background: var(--background-color3);
+    transition: .5s ease-in-out background, .5s ease-in-out color;
 }
 
 .contato-info .titulozinho {
