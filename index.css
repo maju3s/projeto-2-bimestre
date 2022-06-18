@@ -9,6 +9,7 @@
     --background-color: #fff;
     --background-color2: #000;
     --color-text2: #fff;
+    --background-color3: #fff;
 }
 
 
@@ -23,6 +24,7 @@ main.corpo {
     --color-text2: #fff;
     --color-text: #000;
     --background-color: #fff;
+    --background-color3: #fff;
     position: absolute;
     width: 100%;
     transition: .5s ease-in-out background, .5s ease-in-out color;
@@ -34,9 +36,10 @@ main.corpo {
 
 #darkmodeToggle:checked+main {
     --color-text: #fff;
-    --color-text2: #000;
+    --color-text2: #5a5a5a;
     --background-color: #000;
     --background-color2: #fff;
+    --background-color3: rgb(34, 33, 33);
     background: var(--background-color);
     color: var(--color-text);
     transition: .5s ease-in-out background, .5s ease-in-out color;
@@ -57,6 +60,16 @@ main.corpo {
 
 .modal {
     color: #000;
+}
+
+.modal h2.title2 {
+    color: #530809;
+}
+
+.card-body {
+    color: var(--color-text);
+    background: var( --background-color);
+    transition: .5s ease-in-out background, .5s ease-in-out color;
 }
 
 html {
@@ -581,7 +594,9 @@ a.navbar-brand img.img-fluid {
     text-transform: uppercase;
     font-weight: 700;
     outline: none;
+    color: var(--background-color2);
     margin-left: 30px;
+    transition: .5s ease-in-out background, .5s ease-in-out color;
 }
 
 #servicos .button-group button+button {
@@ -601,18 +616,29 @@ a.navbar-brand img.img-fluid {
         text-transform: uppercase;
         font-weight: 700;
         outline: none;
-        color: #090c0e;
+        color: var(--background-color2);
+        transition: .5s ease-in-out background, .5s ease-in-out color;
         margin-left: 30px;
     }
+}
+
+h4.title {
+    cursor: pointer;
+    color: var(--color-text);
+    text-decoration: none;
+    font-style: italic;
+    font-size: 18px;
+}
+
+h4.title:hover {
+    color: #b30e10;
 }
 
 
 /* Carrossel 2 */
 
 .carousel .depoimento {
-    --background-color2: #000;
-    --color-text2: #fff;
-    background-color: var(--background-color2);
+    background-color: black;
     border-radius: 5px;
     display: flex;
     padding: 30px;
@@ -696,6 +722,8 @@ a.navbar-brand img.img-fluid {
 .container2 .card {
     position: relative;
     cursor: pointer;
+    background: var(--background-color);
+    color: var(--background-color);
 }
 
 .container2 .card .face {
@@ -750,6 +778,8 @@ a.navbar-brand img.img-fluid {
     box-sizing: border-box;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
     transform: translateY(-100px);
+    background: var(--background-color);
+    color: var(--background-color2);
 }
 
 .container2 .card:hover .face.face2 {
@@ -782,6 +812,8 @@ a.navbar-brand img.img-fluid {
         position: relative;
         display: inline-block;
         justify-content: space-between;
+        background: var(--background-color);
+        color: var(--background-color);
     }
     .container2 .card {
         position: relative;
@@ -833,6 +865,8 @@ a.navbar-brand img.img-fluid {
         box-sizing: border-box;
         box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
         transform: translateY(-100px);
+        background: var(--background-color);
+        color: var(--background-color2);
     }
     .container2 .card:hover .face.face2 {
         transform: translateY(0);
@@ -1248,6 +1282,7 @@ textarea.input {
 .contato-info {
     padding: 2.3rem 2.2rem;
     position: relative;
+    background: var(--background-color3);
 }
 
 .contato-info .titulozinho {
@@ -1261,7 +1296,7 @@ textarea.input {
 
 .informatioon {
     display: flex;
-    color: black;
+    color: var(--color-text);
     margin: 0.7rem 0;
     align-items: center;
     font-size: 0.95rem;
