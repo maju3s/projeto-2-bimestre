@@ -10,6 +10,7 @@
     --background-color2: #000;
     --color-text2: #fff;
     --background-color3: #fff;
+    --background-color4: gray;
 }
 
 
@@ -25,6 +26,7 @@ main.corpo {
     --color-text: #000;
     --background-color: #fff;
     --background-color3: #fff;
+    --background-color4: gray;
     position: absolute;
     width: 100%;
     transition: .5s ease-in-out background, .5s ease-in-out color;
@@ -34,12 +36,17 @@ main.corpo {
     display: none;
 }
 
+input[type=checkbox] {
+    display: none;
+}
+
 #darkmodeToggle:checked+main {
     --color-text: #fff;
     --color-text2: #5a5a5a;
     --background-color: #000;
     --background-color2: #fff;
     --background-color3: rgb(34, 33, 33);
+    --background-color4: gray;
     background: var(--background-color);
     color: var(--color-text);
     transition: .5s ease-in-out background, .5s ease-in-out color;
@@ -78,6 +85,19 @@ html {
 
 .bg-black {
     background-color: #090c0e;
+}
+
+.bg-light {
+    background-color: var(--background-color3)!important;
+    transition: .5s ease-in-out background, .5s ease-in-out color;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--background-color4);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #456c8a;
 }
 
 div#navbarNavDropdown.collapse.navbar-collapse {}
