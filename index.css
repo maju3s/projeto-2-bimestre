@@ -1136,6 +1136,13 @@ span.negrito {
     cursor: pointer;
 }
 
+.informacoes p.telefones:hover {
+    text-decoration: none;
+    color: var(--background-color2);
+    cursor: pointer;
+    color: #b30e10;
+}
+
 .informacoes p {
     text-decoration: none;
     color: var(--background-color2);
@@ -1464,6 +1471,12 @@ textarea.input {
         color: var(--background-color2);
         cursor: pointer;
     }
+    .informacoes p.telefones:hover {
+        text-decoration: none;
+        color: var(--background-color2);
+        cursor: pointer;
+        color: #b30e10;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1521,6 +1534,12 @@ textarea.input {
         text-decoration: none;
         color: var(--background-color2);
         cursor: pointer;
+    }
+    .informacoes p.telefones:hover {
+        text-decoration: none;
+        color: var(--background-color2);
+        cursor: pointer;
+        color: #b30e10;
     }
 }
 
