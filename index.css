@@ -1443,6 +1443,16 @@ textarea.input {
     .redes-sociais {
         padding: 1.5rem 0 0 0;
     }
+    .informacoes p {
+        text-decoration: none;
+        color: var(--background-color2);
+        cursor: pointer;
+    }
+    .informacoes p:hover {
+        text-decoration: none;
+        color: var(--background-color2);
+        color: #b30e10;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1485,6 +1495,16 @@ textarea.input {
     }
     .butao {
         padding: 0.45rem 1.2rem;
+    }
+    .informacoes p {
+        text-decoration: none;
+        color: var(--background-color2);
+        cursor: pointer;
+    }
+    .informacoes p:hover {
+        text-decoration: none;
+        color: var(--background-color2);
+        color: #b30e10;
     }
 }
 
