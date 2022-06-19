@@ -1130,6 +1130,12 @@ span.negrito {
 
 /*contato - rapha */
 
+.informacoes p.telefones {
+    text-decoration: none;
+    color: var(--background-color2);
+    cursor: pointer;
+}
+
 .informacoes p {
     text-decoration: none;
     color: var(--background-color2);
@@ -1453,6 +1459,11 @@ textarea.input {
         color: var(--background-color2);
         color: #b30e10;
     }
+    .informacoes p.telefones {
+        text-decoration: none;
+        color: var(--background-color2);
+        cursor: pointer;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1505,6 +1516,11 @@ textarea.input {
         text-decoration: none;
         color: var(--background-color2);
         color: #b30e10;
+    }
+    .informacoes p.telefones {
+        text-decoration: none;
+        color: var(--background-color2);
+        cursor: pointer;
     }
 }
 
