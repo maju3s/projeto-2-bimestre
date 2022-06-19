@@ -11,6 +11,7 @@
     --color-text2: #fff;
     --background-color3: #fff;
     --background-color4: gray;
+    --background-color5: rgb(255, 254, 254);
 }
 
 
@@ -27,6 +28,7 @@ main.corpo {
     --background-color: #fff;
     --background-color3: #fff;
     --background-color4: gray;
+    --background-color5: rgb(255, 254, 254);
     position: absolute;
     width: 100%;
     transition: .5s ease-in-out background, .5s ease-in-out color;
@@ -47,6 +49,7 @@ input[type=checkbox] {
     --background-color2: #fff;
     --background-color3: rgb(34, 33, 33);
     --background-color4: gray;
+    --background-color5: rgb(34, 33, 33);
     background: var(--background-color);
     color: var(--color-text);
     transition: .5s ease-in-out background, .5s ease-in-out color;
@@ -83,12 +86,16 @@ html {
     scroll-behavior: smooth;
 }
 
+span.badge {
+    color: var(--background-color);
+}
+
 .bg-black {
     background-color: #090c0e;
 }
 
-.bg-light {
-    background-color: var(--background-color3)!important;
+.bg-light-rapha {
+    background-color: var(--background-color5)!important;
     transition: .5s ease-in-out background, .5s ease-in-out color;
 }
 
@@ -647,7 +654,7 @@ h4.title {
     color: var(--color-text);
     text-decoration: none;
     font-style: italic;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 h4.title:hover {
@@ -906,8 +913,6 @@ a.tirar {
         text-decoration: none;
         font-weight: 900;
         color: #333;
-        padding: 5px;
-        border: 1px solid #333;
     }
     .container2 .card .face.face2 .content a:hover {
         background: #333;
@@ -1183,7 +1188,7 @@ span.circulo-dois {
     height: 26px;
     background-color: #b30e11d5;
     transform: rotate(45deg);
-    top: 50px;
+    top: 40px;
     left: -13px;
 }
 
@@ -1403,6 +1408,8 @@ textarea.input {
         top: -75px;
         right: 65px;
         transform: scale(0.95);
+        background: var(--background-color3);
+        transition: .5s ease-in-out background, .5s ease-in-out color;
     }
     .contato-form:before {
         top: -13px;
@@ -1442,6 +1449,8 @@ textarea.input {
     form,
     .contato-info {
         padding: 1.7rem 1.6rem;
+        background: var(--background-color3);
+        transition: .5s ease-in-out background, .5s ease-in-out color;
     }
     .textinhoo,
     .informatioon,
