@@ -1130,6 +1130,18 @@ span.negrito {
 
 /*contato - rapha */
 
+.informacoes p {
+    text-decoration: none;
+    color: var(--background-color2);
+    cursor: pointer;
+}
+
+.informacoes p:hover {
+    text-decoration: none;
+    color: var(--background-color2);
+    color: #b30e10;
+}
+
 .container-contatorapha {
     position: relative;
     width: 100%;
@@ -1449,7 +1461,6 @@ textarea.input {
     form,
     .contato-info {
         padding: 1.7rem 1.6rem;
-        background: var(--background-color3);
         transition: .5s ease-in-out background, .5s ease-in-out color;
     }
     .textinhoo,
